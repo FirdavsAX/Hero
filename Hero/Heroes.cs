@@ -8,10 +8,10 @@ namespace Hero
 {
     internal class Heroes
     {
-        public string Name { get; set; }
-        public int AttackStrength { get; set; }
-        public int Speed { get; set; }
-        public int Health { get; set; }
+        public string Name { get;private set; }
+        public int AttackStrength { get;private set; }
+        public int Speed { get;private set; }
+        public int Health { get;private set; }
         public Heroes(string name, int attackStrength, int speed, int health)
         {
             Name = name;

@@ -9,8 +9,8 @@ namespace Hero
 {
     internal class Maurlock : Heroes
     {
-        public int NightAttack { get; set; }
-        public int NightSpeed { get; set; }
+        public int NightAttack { get;private set; }
+        public int NightSpeed { get;private set; }
         public Maurlock(int nightAttack, int nightSpeed,int attackStrength,int speed,int health)
             :base("Maurlock",attackStrength,speed,health)
         {
